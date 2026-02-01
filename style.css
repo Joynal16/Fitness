@@ -8,6 +8,10 @@ body{
     background-color: rgba(0, 0, 0, 1);
 }
 
+
+
+
+/* Navbar Section Start */
 nav{
     padding: 5px;
     display: flex;
@@ -53,6 +57,106 @@ nav > div{
     margin-right: 20px;
     
 }
+/*Navbar Section End*/
+
+
+
+
+
+
+
+
+
+
+
+/*Banner section Start */
+.banner-container{
+    
+    padding: 10px;
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 96px;
+
+}
+
+.banner-left{
+
+    width: 50%;
+    min-height: 200px;
+
+}
+.banner-left > h1{
+    font-size:78px ;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+.banner-left > p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    opacity: 50%;
+    margin-bottom: 28px;
+
+}
+.banner-left > div > button{
+    padding: 16px 40px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #E6533C;
+    border-radius: 42px;
+}
+.banner-left .btn-2{
+    color: #FFFFFF;
+    background-color: black;
+    border: 1px solid;
+}
+
+
+
+.banner-right{
+    width: 50%;
+    
+    min-height: 200px;
+    display: flex;
+    justify-content: end;
+
+}
+.banner-right>img{
+    width: 55%;
+    object-fit: cover;
+    position: relative;
+}
+
+.tooltip{
+    background-color: rgba(73, 71, 71, 0.388);
+    color: #FFFFFF;
+    position: absolute;
+    right: 17%;
+    top: 40%;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+.tooltip-2{
+    background-color: rgba(73, 71, 71, 0.568);
+    color: #FFFFFF;
+    position: absolute;
+    left: 60%;
+    top: 67%;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -72,7 +176,37 @@ nav > div{
     nav > span{
         display: block;
         color: #FFFFFF;
-        
-       
     }
+    .banner-container{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .banner-left > div > button{
+        flex-direction: row-reverse;
+    }
+    .banner-left,.banner-right{
+        width: 100%;
+    }
+    .banner-right>img{
+        width: 100%;
+    }
+    .tooltip{
+      background-color: rgba(73, 71, 71, 0.388);
+      color: #FFFFFF;
+      position: absolute;
+      right: 17%;
+      top: 100%;
+      padding: 10px 10px;
+      border-radius: 12px;
+    }
+    .tooltip-2{
+      background-color: rgba(73, 71, 71, 0.568);
+      color: #FFFFFF;
+      position: absolute;
+      left: 20%;
+      top: 140%;
+      padding: 10px 10px;
+      border-radius: 12px;
+    }
+
 }
