@@ -407,13 +407,17 @@ div > button {
     
         width: 100%;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 10px;
+     
         margin-bottom: 550px;
 
     }
+    .n-1 > h1{
+        margin-right: 40px;
+    }
     .parent{
        width: 100%;
-       margin-left: 90px;
+       margin-left: 50px;
        flex-direction: column;
        justify-content: center;
        align-items: center;
@@ -422,21 +426,24 @@ div > button {
     
     }
     .parent > div > h1{
-        margin-left: 50px;
+        margin-left: 60px;
+        margin-right: 20px;
     }
     .parent > div > p {
 
-        margin-left: 10px;
+        margin-left: 30px;
+        margin-right: 50px;
     }
     .parent > div > img{
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .main-3-layout{
         display: inline-block;
         width: 353px;
         height: 730px;
-        margin: 500px 120px;
-        align-items: center;
+        margin-top: 500px;
+        margin-left: 30px;
+    
     }
     .main-cont{
         width: 287px;
@@ -452,6 +459,9 @@ div > button {
         width: 100%;
         height: auto;
         margin: 190px 0px;
+    }
+    div > button{
+        margin-left: 50px;
     }
     
 
